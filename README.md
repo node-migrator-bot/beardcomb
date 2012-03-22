@@ -1,4 +1,4 @@
-#Beardcomb v0.2.1#
+#Beardcomb v0.2.2#
 
 Hogan.js adaptor for Express.
 
@@ -56,10 +56,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ##Demo##
 
+    npm install
     node demo/app.js
 
 ##Changelog##
 
+- 0.2.2: added support for partials in a sub-directory that have the same name as partials in another directory
 - 0.2.1: added support for recursive lookup of partials template files
 - 0.1.1: added support for whitespaces in partial names
 - 0.1.0: First version
+
+##Contributors##
+
+[jcole](https://github.com/jcole)
